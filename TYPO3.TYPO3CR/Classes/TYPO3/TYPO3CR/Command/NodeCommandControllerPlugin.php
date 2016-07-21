@@ -325,7 +325,7 @@ class NodeCommandControllerPlugin implements NodeCommandControllerPluginInterfac
                 if ($createdNodesCount > 0) {
                     $this->output->outputLine('%s missing child nodes need to be created', array($createdNodesCount));
                 }
-                if ($updatedNodesCount >0 ) {
+                if ($updatedNodesCount >0) {
                     $this->output->outputLine('%s identifiers of child nodes need to be updated', array($updatedNodesCount));
                 }
             }
